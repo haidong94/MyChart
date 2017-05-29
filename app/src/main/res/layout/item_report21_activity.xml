@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6"
+        android:background="@drawable/border">
+        <TableRow>
+            <TextView
+                android:id="@+id/tv_STT"
+                android:textColor="@color/colorBlack"
+                android:text="STT"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border"/>
+            <TextView
+                android:id="@+id/tv_MSTheoDm"
+                android:textColor="@color/colorBlack"
+                android:text="Mã số theo danh mục BHYT"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border"/>
+            <TextView
+                android:id="@+id/tv_TenDVYT"
+                android:textColor="@color/colorBlack"
+                android:text="Tên dịch vụ y tế"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:id="@+id/tv_NgoaiTru"
+                android:textColor="@color/colorBlack"
+                android:text="@string/ngoaitru"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border"/>
+            <TextView
+                android:id="@+id/tv_NoiTru"
+                android:textColor="@color/colorBlack"
+                android:text="@string/noitru"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:id="@+id/tv_DonGia"
+                android:textColor="@color/colorBlack"
+                android:text="Đơn giá (đồng)"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border"/>
+            <TextView
+                android:id="@+id/tv_ThanhTien"
+                android:textColor="@color/colorBlack"
+                android:text="Thành tiền (đồng)"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

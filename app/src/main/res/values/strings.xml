@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">HIS.LITE</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="name">Y TẾ</string>
+    <string name="next">Bỏ Qua|Đăng nhập sau</string>
+    <string name="EmptyUser">Nhập tên tài khoản</string>
+    <string name="EmptyPass">Nhập mật khẩu</string>
+    <string name="txt_login">Đăng Nhập</string>
+    <string name="ErrorUser">Tài khoản chưa đúng</string>
+    <string name="ErrorPass">Mật khẩu chưa chính xác</string>
+    <string name="khambenh">Khám Bệnh</string>
+    <string name="noitru">Nội Trú</string>
+    <string name="ngoaitru">Ngoại Trú</string>
+    <string name="baocao">Báo Cáo</string>
+    <string name="bieudo">Biểu Đồ</string>
+    <string name="ChartChiPhi">Biểu đồ số liệu tổng hợp chi phí</string>
+    <string name="ChartBenhNhan">Biểu đồ số lượng bệnh nhân</string>
+    <string name="vienphi">Viện Phí</string>
+    <string name="title_connect">Internet</string>
+    <string name="mess">Bạn cần kết nối mạng!!!</string>
+    <string name="BieuDoThongTinSoLuongTheoThang">Biểu đồ thông tin số lượng theo tháng</string>
+    <string name="BieuDoThongTinTheoThang">Biểu đồ thông tin theo tháng</string>
+    <string name="BieuDoThongTinTongHopChiPhiHuyen">Biểu đồ thông tin tổng hợp chi phí huyện</string>
+    <string name="BieuDoThongTinTongHopSoLuongHuyen">Biểu đồ thông tin tổng hợp số lượng huyện</string>
+    <string name="SelectChart">Chọn Biểu Đồ</string>
+    <string name="view">Xem</string>
+    <string name="cosoyte">Cơ sở y tế</string>
+    <string name="kybaocao">Kỳ Báo Cáo</string>
+    <string name="tungay">Từ Ngày</string>
+    <string name="denngay">Đến Ngày</string>
+    <string name="loaibaocao">Loại Báo Cáo</string>
+    <string name="tatca">Tất Cả</string>
+    <string name="mauin">Mẫu In</string>
+    <string name="khoaphong">Khoa Phòng</string>
+    <string name="SelectReport">Chọn Loại Báo Cáo</string>
+    <string name="baocaoBHYT">Báo Cáo BHYT</string>
+    <string name="ContentReport">Nội Dung Báo Cáo</string>
+
+
+    <string-array name="cosoyte">
+        <item>Trung tâm y tế huyện Quốc Oai</item>
+        <item>TYT thị trấn Quốc Oai</item>
+        <item>TYT xã Cấn Hữu</item>
+        <item>TYT xã Cộng Hòa</item>
+    </string-array>
+
+    <string-array name="KyBaoCao">
+        <item>Giai Đoạn</item>
+        <item>Tháng</item>
+        <item>Quý</item>
+        <item>Năm</item>
+    </string-array>
+
+    <string-array name="Thang">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="Quy">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+    </string-array>
+
+    <string-array name="Nam">
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+    </string-array>
+
+    <string-array name="MauIn">
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>79</item>
+        <item>80</item>
+        <item>79 Tổng Hợp</item>
+        <item>80 Tổng Hợp</item>
+    </string-array>
+
+    <string-array name="KhoaPhong">
+        <item>Phòng Khám Bệnh</item>
+        <item>Phòng Điều Trị Nội Trú</item>
+        <item>Khoa Khám Bệnh</item>
+        <item>Khoa Điều Trị Nội Trú</item>
+    </string-array>
+</resources>

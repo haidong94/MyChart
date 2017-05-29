@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="1500dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:weightSum="2">
+                        <TextView
+                            android:textColor="@color/colorBlack"
+                            android:text="Tên CSYT: trung tâm y tế huyện quốc oai"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left"/>
+                        <TextView
+                            android:textColor="@color/colorBlack"
+                            android:text="Mã CSYT:01841"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left"/>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:textColor="@color/colorBlack"
+                        android:text="Mẫu số:C80a-HD"
+                        android:gravity="right"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+                <TextView
+                    android:textColor="@color/colorBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Danh sách người bệnh BHYT khám chữa bệnh nội trú đề nghị thanh toán"
+                    android:gravity="center"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="25"
+                    android:background="@drawable/border">
+                    <TableRow>
+                        <TextView
+                            style="@style/table"
+                            android:text="STT"
+                            />
+                        <TextView
+                            style="@style/table"
+                            android:text="Họ và Tên"
+                            />
+                        <LinearLayout
+                            style="@style/table"
+                            android:layout_weight="2"
+                            android:orientation="vertical"
+                            android:weightSum="2">
+                            <TextView
+                                android:textColor="@color/colorBlack"
+                                android:text="Năm Sinh"
+                                android:gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/border"/>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:weightSum="1">
+                                <TextView
+                                    android:textColor="@color/colorBlack"
+                                    android:text="Nam"
+                                    android:gravity="center"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.5"
+                                    android:background="@drawable/border"/>
+                                <TextView
+                                    android:textColor="@color/colorBlack"
+                                    android:text="Nũ"
+                                    android:gravity="center"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.5"
+                                    android:background="@drawable/border"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <TextView
+                            android:text="Mã Thẻ BHYT"
+                            style="@style/table"/>
+                        <TextView
+                            android:text="Mã ĐKBĐ"
+                            style="@style/table"/>
+                        <TextView
+                            android:text="Mã Bệnh"
+                            style="@style/table"/>
+                        <TextView
+                            android:text="Ngày Vào"
+                            style="@style/table"/>
+                        <TextView
+                            android:text="Ngày Ra"
+                            style="@style/table"/>
+                        <LinearLayout
+                            style="@style/table"
+                            android:layout_weight="12"
+                            android:orientation="vertical"
+                            android:weightSum="3">
+                            <TextView
+                                android:textColor="@color/colorBlack"
+                                android:text="Số lượng"
+                                android:gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/border"/>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2"
+                                android:weightSum="12">
+                                <TextView
+                                    android:textColor="@color/colorBlack"
+                                    android:text="Tổng cộng"
+                                    android:gravity="center"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/border"/>
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="9"
+                                    android:weightSum="9">
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="6"
+                                        android:weightSum="3">
+                                        <TextView
+                                            android:textColor="@color/colorBlack"
+                                            android:text="không áp dụng tỉ lệ thanh toán"
+                                            android:gravity="center"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="1"
+                                            android:background="@drawable/border"/>
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="2"
+                                            android:weightSum="6">
+                                            <TextView
+                                                android:textColor="@color/colorBlack"
+                                                android:text="Xét Nghiệm"
+                                                android:gravity="center"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:background="@drawable/border"/>
+
+                                            <TextView
+                                                android:textColor="@color/colorBlack"
+                                                android:text="CĐHA TDCN"
+                                                android:gravity="center"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:background="@drawable/border"/>
+                                            <TextView
+                                                android:textColor="@color/colorBlack"
+                                                android:text="Thuốc"
+                                                android:gravity="center"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:background="@drawable/border"/>
+                                            <TextView
+                                                android:textColor="@color/colorBlack"
+                                                android:text="Máu"
+                                                android:gravity="center"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:background="@drawable/border"/>
+                                            <TextView
+                                                android:textColor="@color/colorBlack"
+                                                android:text="TTPT"
+                                                android:gravity="center"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:background="@drawable/border"/>
+                                            <TextView
+                                                android:textColor="@color/colorBlack"
+                                                android:text="VTYT"
+                                                android:gravity="center"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:background="@drawable/border"/>
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="3"
+                                        android:weightSum="3">
+                                        <TextView
+                                            android:textColor="@color/colorBlack"
+                                            android:text="Thanh toán theo tỷ lệ"
+                                            android:gravity="center"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="1"
+                                            android:background="@drawable/border"/>
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="2"
+                                            android:weightSum="3">
+                                            <TextView
+                                                android:textColor="@color/colorBlack"
+                                                android:text="DVKT"
+                                                android:gravity="center"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:background="@drawable/border"/>
+                                            <TextView
+                                                android:textColor="@color/colorBlack"
+                                                android:text="Thuốc"
+                                                android:gravity="center"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:background="@drawable/border"/>
+                                            <TextView
+                                                android:textColor="@color/colorBlack"
+                                                android:text="VTYT"
+                                                android:gravity="center"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:background="@drawable/border"/>
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                                <TextView
+                                    android:textColor="@color/colorBlack"
+                                    android:text="Tiền giường"
+                                    android:gravity="center"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/border"/>
+                                <TextView
+                                    android:textColor="@color/colorBlack"
+                                    android:text="Vận chuyển"
+                                    android:gravity="center"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/border"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <TextView
+                            android:text="Người bệnh chi trả"
+                            style="@style/table"/>
+                        <LinearLayout
+                            style="@style/table"
+                            android:orientation="vertical"
+                            android:layout_weight="2"
+                            android:weightSum="3">
+                            <TextView
+                                android:textColor="@color/colorBlack"
+                                android:text="Đề nghị BHXH thanh toán"
+                                android:gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/border"/>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2"
+                                android:weightSum="1">
+                                <TextView
+                                    android:textColor="@color/colorBlack"
+                                    android:text="Tổng cộng"
+                                    android:gravity="center"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.5"
+                                    android:background="@drawable/border"/>
+                                <TextView
+                                    android:textColor="@color/colorBlack"
+                                    android:text="Trong đó chi phí ngoài quỹ định suất"
+                                    android:gravity="center"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.5"
+                                    android:background="@drawable/border"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bệnh nhân nội tỉnh KBC ban đầu"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bệnh nhân nội tỉnh đến"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bệnh nhân ngoại tỉnh đến"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerview2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </HorizontalScrollView>
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="1500dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="23"
+            android:background="@drawable/border">
+            <TableRow>
+                <TextView
+                    android:id="@+id/tv_tt"
+                    style="@style/table"
+                    android:text="TT"
+                    />
+                <TextView
+                    android:id="@+id/tv_khambenh"
+                    style="@style/table"
+                    android:layout_weight="2"
+                    android:text="Khám Chữa Bệnh"
+                    />
+                <TextView
+                    android:id="@+id/tv_soluot"
+                    style="@style/table"
+                    android:text="Số lượt"
+                    />
+                <TextView
+                    android:id="@+id/tv_songay"
+                    style="@style/table"
+                    android:text="Số ngày"
+                    />
+                <TextView
+                    android:id="@+id/tv_tongcong"
+                    style="@style/table"
+                    android:text="Tổng cộng"
+                    />
+                <TextView
+                    android:id="@+id/tv_xetNghiem"
+                    style="@style/table"
+                    android:text="Xét nghiệm"
+                    />
+                <TextView
+                    android:id="@+id/tv_CDHA_TDCN"
+                    style="@style/table"
+                    android:text="CDHA"
+                    />
+                <TextView
+                    android:id="@+id/tv_thuoc"
+                    style="@style/table"
+                    android:text="Thuốc"
+                    />
+                <TextView
+                    android:id="@+id/tv_mau"
+                    style="@style/table"
+                    android:text="Máu"
+                    />
+                <TextView
+                    android:id="@+id/tv_TTPT"
+                    style="@style/table"
+                    android:text="TTPT"
+                    />
+                <TextView
+                    android:id="@+id/tv_VTYT"
+                    style="@style/table"
+                    android:text="VTYT"
+                    />
+                <TextView
+                    android:id="@+id/tv_DKVT"
+                    style="@style/table"
+                    android:text="DKVT"
+                    />
+                <TextView
+                    android:id="@+id/tv_ThuocTyLe"
+                    style="@style/table"
+                    android:text="Thuốc"
+                    />
+                <TextView
+                    android:id="@+id/tv_VTYT_TyLe"
+                    style="@style/table"
+                    android:text="VTYT"
+                    />
+                <TextView
+                    android:id="@+id/tv_tienGiuong"
+                    style="@style/table"
+                    android:text="Tiền giường"
+                    />
+                <TextView
+                    android:id="@+id/tv_vanChuyen"
+                    style="@style/table"
+                    android:text="vận Chuyển"
+                    />
+                <TextView
+                    android:id="@+id/tv_nguoiBenhTra"
+                    style="@style/table"
+                    android:text="Người bệnh chi trả"
+                    />
+                <TextView
+                    android:id="@+id/tv_tongCongBHtra"
+                    style="@style/table"
+                    android:text="Tổng cộng"
+                    />
+                <TextView
+                    android:id="@+id/tv_dinhSuat"
+                    android:text="Ngoài định suất"
+                    style="@style/table"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
